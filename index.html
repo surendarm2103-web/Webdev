@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Surendar M — Portfolio</title>
+  <meta name="description" content="Portfolio of Surendar M: projects, skills, and contact." />
+  <meta property="og:title" content="Surendar M — Portfolio" />
+  <meta property="og:description" content="Projects, skills, experience, and contact." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="" />
+  <meta name="theme-color" content="#0ea5e9" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body {font-family: 'Inter', sans-serif; margin:0; padding:0; line-height:1.6;}
+    .container {max-width:1200px; margin:auto; padding:0 20px;}
+    .nav {background:#0ea5e9; padding:10px 0; position:sticky; top:0; z-index:1000;}
+    .nav-inner {display:flex; justify-content:space-between; align-items:center;}
+    .nav a {color:#fff; margin-left:20px; text-decoration:none; font-weight:500;}
+    .nav .brand {font-size:1.3rem; font-weight:700; color:#fff;}
+    .hero {padding:80px 0; text-align:center; background:linear-gradient(135deg,#0ea5e9,#2563eb); color:white;}
+    .hero h1 {font-size:2.5rem; margin-bottom:20px;}
+    .hero p {max-width:600px; margin:auto; font-size:1.1rem; opacity:0.95;}
+    .hero-cta {margin-top:25px;}
+    .btn {padding:10px 20px; border-radius:8px; border:none; margin:5px; cursor:pointer; font-weight:600;}
+    .primary {background:#fff; color:#0ea5e9;}
+    .ghost {border:2px solid #fff; background:transparent; color:#fff;}
+    .tag {display:inline-block; background:#fff2; padding:5px 12px; border-radius:12px; margin:5px; font-size:0.9rem;}
+    .avatar-wrap {margin-top:30px;}
+    .avatar {width:150px; height:150px; margin:auto; border-radius:50%; overflow:hidden;}
+    .section {padding:80px 20px;}
+    .section h2 {text-align:center; margin-bottom:50px; font-size:2rem;}
+    .projects-grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:25px;}
+    .card {background:#fff; border-radius:16px; padding:20px; box-shadow:0 4px 12px rgba(0,0,0,0.1); transition:transform .2s;}
+    .card:hover {transform:translateY(-5px);}
+    .skills-grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px;}
+    .skill {background:#f3f4f6; border-radius:12px; padding:15px;}
+    .timeline {border-left:3px solid #0ea5e9; padding-left:20px;}
+    .timeline-item {margin-bottom:30px;}
+    footer {background:#0f172a; color:#94a3b8; text-align:center; padding:20px; margin-top:50px;}
+    footer a {color:#38bdf8; text-decoration:none;}
+  </style>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="nav" aria-label="Primary">
+    <div class="container nav-inner">
+      <a class="brand" href="#top" aria-label="Home">Surendar M</a>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="top" class="hero">
+    <div class="container">
+      <h1>Hi, I'm Surendar M</h1>
+      <p>BSc Computer Science with AI — passionate about artificial intelligence, web development, and building impactful solutions. Based in Chennai, Tamil Nadu.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn primary">View My Work</a>
+        <a href="mailto:surendar.m2103@gmail.com" class="btn ghost">Contact Me</a>
+      </div>
+      <div class="avatar-wrap">
+        <div class="avatar" role="img" aria-label="Avatar placeholder">
+          <img src="C:\Users\Manisarla\Desktop\Downloads\photo_2025-09-04_23-53-12.jpg" alt="Profile Photo" width="130">
+        </div>
+      </div>
+      <div style="margin-top:20px;">
+        <span class="tag">📍 Chennai, Tamil Nadu</span>
+        <span class="tag">🎓 BSc CS with AI</span>
+        <span class="tag">🚀 Aspiring AI Developer</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="container projects-grid">
+      <div class="card">
+        <h3>AI Chatbot</h3>
+        <p>A conversational AI chatbot built using Python and NLP frameworks to answer FAQs and assist users.</p>
+        <p><b>Tech:</b> Python, TensorFlow, Flask</p>
+      </div>
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>A responsive personal portfolio showcasing projects and skills, built with HTML, CSS, and JavaScript.</p>
+        <p><b>Tech:</b> HTML, CSS, JS</p>
+      </div>
+      <div class="card">
+        <h3>Stock Price Predictor</h3>
+        <p>ML model predicting stock trends using historical market data with visualization dashboards.</p>
+        <p><b>Tech:</b> Python, Pandas, Matplotlib</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section" style="background:#f9fafb">
+    <h2>Skills</h2>
+    <div class="container skills-grid">
+      <div class="skill"><b>Python</b> — 85%</div>
+      <div class="skill"><b>Java</b> — 75%</div>
+      <div class="skill"><b>HTML/CSS/JS</b> — 80%</div>
+      <div class="skill"><b>Machine Learning</b> — 70%</div>
+      <div class="skill"><b>SQL</b> — 65%</div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <div class="container timeline">
+      <div class="timeline-item">
+        <h3>Intern — AI Research</h3>
+        <p><i>XYZ Labs | 2024 (3 months)</i></p>
+        <ul>
+          <li>Worked on training deep learning models for text classification.</li>
+          <li>Assisted in building a prototype chatbot for customer support.</li>
+        </ul>
+      </div>
+      <div class="timeline-item">
+        <h3>Web Developer Intern</h3>
+        <p><i>ABC Solutions | 2023 (2 months)</i></p>
+        <ul>
+          <li>Developed responsive websites for small businesses.</li>
+          <li>Optimized front-end performance by 25%.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section" style="background:#f9fafb">
+    <h2>Contact</h2>
+    <div class="container" style="text-align:center;">
+      <p>Let's build something amazing together!</p>
+      <p>Email: <a href="mailto:surendar.m2103@gmail.com">surendar.m2103@gmail.com</a></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <small>© <span id="year"></span> Surendar M. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
